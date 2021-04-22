@@ -1,3 +1,4 @@
+![Screenshot_1](https://user-images.githubusercontent.com/61589320/115705373-e2718380-a385-11eb-8a41-ee3205837b34.png)
 # Ai-106394 : Naive bayes assign01 #
 ### PROJECT MEMBERS ###
 StdID | Name
