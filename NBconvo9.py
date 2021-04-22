@@ -24,11 +24,15 @@ Y = train['label']
 # print(X)
 
 #Create Filter for convolution
-filter = np.array([[1,1,1,1,1],
-          [1,1,1,1,1],
-          [1,1,1,1,1],
-          [1,1,1,1,1],
-          [1,1,1,1,1]])
+filter = np.array([[1,1,1,1,1,1,1,1,1],
+	        [1,2,2,2,2,2,2,2,1],
+          [1,2,2,2,2,2,2,2,1],
+          [1,2,3,3,3,3,3,2,1],
+          [1,2,3,3,3,3,3,2,1],
+          [1,2,3,3,3,3,3,2,1],
+	        [1,2,2,2,2,2,2,2,1],
+	        [1,2,2,2,2,2,2,2,1],
+          [1,1,1,1,1,1,1,1,1]])
 
 
 #convert from dataframe to numpy array
@@ -36,7 +40,7 @@ X = X.to_numpy()
 print(X.shape)
 
 #new array with reduced number of features to store the small size images
-sX = np.empty((0,576), int)
+sX = np.empty((0,400), int)
 
 # img = X[6]
 ss = 42000 #subset size for dry runs change to 42000 to run on whole data
@@ -49,7 +53,7 @@ for img in X[0:ss,:]:
   nImg = convolve2D(img2D,filter)
   # print(nImg.shape)
   # print(nImg)
-  nImg1D = np.reshape(nImg, (-1,576))
+  nImg1D = np.reshape(nImg, (-1,400))
   # print(nImg.shape)
   sX = np.append(sX, nImg1D, axis=0)
 
