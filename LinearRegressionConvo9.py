@@ -3,7 +3,7 @@ import sklearn as sk
 import pandas as pd
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import train_test_split
-
+from sklearn.linear_model import LinearRegression
 
 #function to perform convolution
 def convolve2D(image, filter):
@@ -68,7 +68,7 @@ print(sX.shape)
 sXTrain, sXTest, yTrain, yTest = train_test_split(sX,sY,test_size=0.2,random_state=0)
 print(sXTest.shape,", ",yTest.shape)
 print(sXTrain.shape,", ",yTrain.shape)
-clf = MultinomialNB()
+clf = LinearRegression()
 clf.fit(sXTrain, yTrain)
 print(clf.class_count_)
 
