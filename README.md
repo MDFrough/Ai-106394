@@ -53,6 +53,7 @@ MultinomialNB algorithm is used in Text Classification, Spam filtering and Senti
 
 ## References ##
 - Documentation of python : https://docs.python.org/3/
+- Documentation of scikit-learn : https://scikit-learn.org/stable/user_guide.html
 - Explanation of CategoricalNB : https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.CategoricalNB.html
 - Explanation of SVM : https://scikit-learn.org/stable/modules/svm.html
 - Explanation of KNN : https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
