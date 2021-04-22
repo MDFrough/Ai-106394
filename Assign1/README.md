@@ -8,6 +8,9 @@ StdID | Name
 ## Assignemnt Description ##
 used naive bayes as per sir's instructions to reach a desired accuracey
 
+## Screenshot ##
+![alt text](http:)
+
 ## Discrete Math Concepts Used ##
 The categorical Naive Bayes classifier is suitable for classification with discrete features that are categorically distributed.
 
