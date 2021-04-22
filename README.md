@@ -39,7 +39,18 @@ and 2 filters
     c. SVM
     d. KNN
 
-# KNN #
+### KNN ###
+The k-nearest neighbors (KNN) algorithm can be used to solve both classification and regression problems. in knn we have used 3 as nearest neighbor to better satisfy our need.
+
+### SVM ###
+Support Vector Machine (SVM) algorithm can be used for both classification or regression challenges.
+
+### Linear Regression ###
+Linear Regression algorithm is used to performs a regression task.
+
+### MultinomialNB ###
+MultinomialNB algorithm is used in Text Classification, Spam filtering and Sentiment Analysis.
+
 ## References ##
 - Documentation of python : https://docs.python.org/3/
 - Explanation of CategoricalNB : https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.CategoricalNB.html
