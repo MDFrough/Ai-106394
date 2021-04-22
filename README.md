@@ -39,7 +39,10 @@ and 2 filters
     c. SVM
     d. KNN
 
-
+# KNN #
 ## References ##
 - Documentation of python : https://docs.python.org/3/
 - Explanation of CategoricalNB : https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.CategoricalNB.html
+- Explanation of SVM : https://scikit-learn.org/stable/modules/svm.html
+- Explanation of KNN : https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
+- Explanation of LinearRegression : https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
